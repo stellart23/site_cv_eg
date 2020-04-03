@@ -1,0 +1,284 @@
+/*FONTS*/
+
+@font-face {
+    font-family: 'quicksanddash';
+    src: url('fonts/quicksand/quicksand_dash-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand_dash-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('fonts/quicksand/quicksand-bold-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbold_italic';
+    src: url('fonts/quicksand/quicksand-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksanditalic';
+    src: url('fonts/quicksand/quicksand-italic-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('fonts/quicksand/quicksand-light-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quicksandlight_italic';
+    src: url('fonts/quicksand/quicksand-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('fonts/quicksand/quicksand-regular-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*.    /////FONTS///////.        */
+
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+}
+*/
+
+*
+{
+    font-family: 'quicksandlight_italic', Arial ,sans-serif;
+    
+}
+
+ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+section
+{
+border: solid 1px #881818;
+width: 95%;
+margin: auto;
+}
+
+
+h1
+{
+	color: #000000;
+	font-size: 50px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    
+
+}
+
+.estelle
+{
+    color: #f39c12;
+}
+
+h2
+{
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.develo
+{
+    text-decoration: underline;
+    text-decoration-color: #f39c12;
+    text-underline-offset: 10px;
+
+}
+
+/*
+header
+{
+	background-color: #f39c12;
+	padding: 10px;
+}
+*/
+
+.date
+{
+    font-weight: bold;
+}
+
+.general
+{
+	color: #ffffff;
+    background-color: #f39c12;
+    padding: 10px;
+    text-align: center;
+}
+
+.fas fa-briefcase
+{
+ color: #ffffff;
+}
+
+.description
+{
+    width: 90%;
+    margin: auto;
+    padding: px;
+    list-style-type: "\1F44D";
+}
+
+.description2
+{
+    margin-left: 65px;
+
+}
+
+.fonction
+{
+	color: rgb(103 169 161);
+}
+
+.entrepriseville
+{
+	font-style: italic;
+}
+
+
+.photo
+{
+	margin-top: 20px;
+	width: 200px;
+	border: 5px solid;
+	border-color: #fff;
+	border-radius: 100px;
+}
+
+.photo2
+{
+	width: 200px;
+	margin: auto;
+}
+
+/* Liens */
+a 
+{
+   text-decoration: none;
+   font-style: italic;
+   color: #ffffff;
+}
+
+a:hover /* Apparence au survol des liens */ 
+{
+   color: #AD1457;
+}
+/*
+a:visited
+
+{
+	color: #9E9E9E;
+}
+*/ 
+
+body
+
+{
+	
+    display: flex;
+}
+
+
+
+
+.element
+{
+	min-height: 100px;
+	padding: 10px;
+
+}
+
+.element:nth-child(1)
+{
+	width: 70%;
+	order: 2
+}
+
+
+.element:nth-child(2)
+{
+	width: 30%;
+    order: 1
+    list-style: none;
+}
+
+
+.side
+{
+	color: #ffffff;
+	text-align: center;
+}
+
+.contact
+{
+    background-color: #f39c12;
+    padding: 10px;
+	
+}
+
+
+.apropos
+{
+    background-color: #f1c40f;
+    padding: 10px;
+	
+}
+
+.competences
+{
+    background-color: #1abc9c;
+    padding: 10px;
+	
+}
+
+.loisirs
+{
+    background-color: #2ecc71;
+    padding: 10px;
+	
+}
+
+
+
+
+
+
+{
+}
