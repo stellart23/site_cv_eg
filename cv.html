@@ -2,7 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-     <link rel="stylesheet" href="style.css" />
+	 <link rel="stylesheet" href="style.css" />
+	 <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" />
+	 <script src="https://kit.fontawesome.com/a65a43a73a.js" crossorigin="anonymous"></script>
     <title>Mon CV</title>
   </head>
 
@@ -20,7 +22,7 @@
 			<section> 
 
 				<article> 
-				 	<h3 class="general"> <i class="fas fa-briefcase"></i> EXPERIENCES </h3>
+				 	<h3 class="general"> <i class="fas fa-briefcase"></i> EXPÉRIENCES </h3>
 
 					
 				  		<ul> 
@@ -89,7 +91,7 @@
 
 					<article> 
 
-						<h3 class="general" > FORMATION </h3> 
+						<h3 class="general"><i class="fas fa-graduation-cap"></i> FORMATION </h3> 
 
 						
 
@@ -105,10 +107,230 @@
 
 						<footer> 
 							
-							<h3 class="general" > RECOMMANDATIONS </h3>
+							<h3 class="general"><i class="fas fa-pencil-alt"></i> RECOMMANDATIONS </h3>
 
 								<p>Gregory boquet </p>
 							 
+							<form method="POST" action="traitement.php">
+
+								<p>
+									 <label for="pseudo"> votre pseudo </label> 
+									 <input type="texte" name="pseudo" id="pseudo" placeholder="ex:stellart" size="50" maxlength="10"> </br>
+									 <label for="mot de passe">votre mot de passe</label>
+									 <input type="password" name="mot de passe" id="pass" placeholder="**********" size="50" maxlength="12">
+								</p>
+
+
+
+							</form>
+
+							<form method="POST" action="traitement.php">
+
+								<p> <label for="ameliorer">quelles actions souhaitez vous faire pour améliorer votre bien être</label> </br>
+								<textarea name="améliorer" id="améliorer" rows="10" cols="50"> exprimez vos action ici </textarea>
+								</P>
+							</form>
+					
+							<form method="POST" action="traitement.php">
+								<label for="email">remplissez votre email</label>
+									<input type="email" name="email" id="email"/> </br>
+
+								<label for="url">mettez l'url du site ici</label> </br>
+									<input type="url" name="url" id="url"/> </br>
+
+								<label for="color">votre couleur préférée</label> </br>
+									<input type="color" name="color" id="color"/> </br> 
+
+								<label for="number"> quel notre metteriez vous à mon site </label></br>
+									<input type="number" name="number" id="number" min="5" max="10" /> </br>
+									<input type="range" name="classification" id="classificaion" min="3" max="12"/></br>
+
+
+								<label for="date"> quel est ta date de naissance</label></br>
+									<input type="date" name="date" id="date"/></br>
+
+								<label for="search"> rechercher dans cette page</label></br>
+									<input type="search" name="search" id="search"/></br>
+
+							</form>
+
+							<form method="post" action="traitement.php">
+
+							<p>
+								cochez dans la lite suivante ce vous aimez</br>
+							
+
+							
+							<input type="checkbox" name="pêche" id="pêche"/>
+							<label for="pêche"> pêche </label></br>
+
+							
+							<input type="checkbox" name="banane" id="banane"/>
+							<label for="banane">banane</label></br>
+
+							
+							<input type="checkbox" name="cerise" id="cerise" checked/>
+							<label for="cerise">cerise</label></br>
+
+						</p>
+							</form>
+
+
+							<form method="POST" action="traitement.php">
+
+								<p>
+									Veuillez indiquer dans quel tranche d'age vous êtes </br>
+
+								<input type="radio" name="age" value="20-30ans" id="20-30ans"/>
+								<label for="20-30ans">20-30ans</label></br>
+
+								<input type="radio" name="age" value="30-40ans" id="30-40ans"/>
+								<label for="30-40ans">30-40ans</label></br>
+
+								<input type="radio" name="age" value="40-50ans" id="40-50ans"/>
+								<label for="40-50ans">40-50ans</label></br>
+
+								</p>
+
+								<p>
+									Sur quel continent habitez vous ?</br>
+
+									<input type="radio" name="continent" value="amerique" id="amerique"/>
+									<label for="amerique">amerique</label></br>
+
+									<input type="radio" name="continent" value="afrique" id="afrique"/>
+									<label for="afrique">afrique</label></br>
+
+									<input type="radio" name="continent" value="europe" id="europe"/>
+									<label for="europe">europe</label></br>
+
+								</p>
+
+							</form>
+
+							<form method="POST" action="traitement.php">
+
+								<p>
+									<label for="pays"> dans quel pays vous habitez ?</label></br>
+
+									<select name="pays" id="pays">
+										<option value="france">france</option>
+										<option value="italie">italie</option>
+										<option value="espagne">espagne</option>
+									</select>
+
+								</p>
+
+							</form>
+
+							<form method="POST" action="traitement.php">
+								
+								<p>
+									<label for="pays">dans quel pays habitez vous</label></br>
+										<select name="pays" id="pays">
+											<optgroup label="Europe">
+												<option value="italie">italie</option>
+												<option value="france">france</option>
+											</optgroup>
+											<optgroup label="Amérique">
+												<option value="canada">canada</option>
+												<option value="USA">USA</option>
+											</optgroup>
+											<optgroup label="Afrique">
+												<option value="Egypte">Egypte</option>
+												<option value="togo">togo</option>
+											</optgroup>
+										</select>
+
+								</p>
+
+							</form>
+						
+							<form method="POST" action="">
+								<fieldset>
+									<legend>vos coordonnées</legend></br>
+											<label for="nom"> quel est votre nom?</label></br>
+											<input type="text" name="nom" id="nom"/>
+
+											<label for="prenom">quel est votre prenom</label>
+											<input type="text" name="prenom" id="prenom"/>
+											
+											<label for="mail"> quel est votre email?</label>
+											<input type="email" name="mail" id="mail"/>
+
+								</fieldset>
+
+								<fieldset>
+									<legend>Vos souhaits</legend>
+									
+									<p>faites un souhait
+										<input type="radio" name="souhait" value="riche" id="riche"/>
+										<label for="riche">être riche</label>
+
+
+										<input type="radio" name="souhait" value="superman" id="superman"/>
+										<label for="superman">être superman</label>
+
+										<input type="radio" name="souhait" value="superman" id="invisible"/>
+										<label for="invisible">être invisible</label> 
+
+									</p> 
+								
+							</fieldset>	
+
+							<fieldset>
+
+								<label for="pays">dans quel pays habitez vous ?</label>
+									<select name="pays" id="pays>">
+										<optgroup label="Europe">
+											<option value="italie">italie</option>
+											<option value="france">france</option>
+										</optgroup>
+									<optgroup label="amerique">
+										<option value="USA">USA</option>
+										<option value="canada">canada</option>
+									</optgroup>
+									<optgroup label="afrique">
+										<option value="togo">togo</option>
+										<option value="congo">congo</option>
+									</optgroup>
+
+									</select>
+
+
+							</fieldset>
+
+
+							<fieldset>
+								<p>quel est votre fuit préférée?
+									<input type="checkbox" name="banane" id="banane"/>
+									<label for="banane">banane</label>
+
+									<input type="checkbox" name="cerise" id="cerise"/>
+									<label for="cerise">cerise</label>
+
+
+
+								</p>
+
+							</fieldset>
+
+							<input type="submit" name="envoyer">
+
+
+
+
+
+
+
+								
+
+
+
+
+							</form>
+
+
 						</footer>	
 
 					
@@ -134,12 +356,12 @@
 					</article> 
 
 					<article class="apropos">
-						<h3> A PROPOS DE MOI</h3>
+						<h3> À PROPOS DE MOI</h3>
 							<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
 					</article>
 
 				  	<article class="competences"> 	
-				  		<h3> Compétences </h3> 
+				  		<h3> COMPÉTENCES </h3> 
 
 							<h4>WEB</h4>
 								<ul> 
@@ -175,10 +397,10 @@
 
 					<article class="loisirs">
 
-						<h3 class="Loisirs" >Loisirs</h3>
+						<h3 class="Loisirs" >LOISIRS</h3>
 							<ul>
-								<li>Peinture (expositions avec l’agora des arts)</li>
-								<li>Krav Maga</li>
+								<li><i class="fas fa-palette"></i> </li>
+								<li>Krav Maga  </li>
 								<li>Golf</li>
 							</ul>
 					

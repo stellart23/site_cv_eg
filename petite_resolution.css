@@ -1,0 +1,41 @@
+
+@media all and (max-width: 1024px)
+{
+    p
+    {
+        color: red; 
+        background-color: black;
+        font-size: 1.2em;
+    }
+    .photo
+    {
+        margin-top: 20px;
+        width:  75%;
+        border: 3px solid;
+        border-color: #fff;
+        border-radius: 100px;
+    }
+    
+    .photo2
+    {
+        width: 75%;
+        margin: auto;
+    }
+
+
+
+
+}
+ 
+
+@media all and (max-device-width: 480px)
+{
+    p
+    {
+        color: violet;
+        background-color: white;
+        font-size: 1.2em;
+    }
+}
+
+<meta name="viewport" content="width=device-width, user-scalable=no">

@@ -133,6 +133,7 @@ header
 .date
 {
     font-weight: bold;
+    list-style: none;
 }
 
 .general
@@ -146,6 +147,7 @@ header
 .fas fa-briefcase
 {
  color: #ffffff;
+ font-size: 10em;
 }
 
 .description
@@ -153,12 +155,13 @@ header
     width: 90%;
     margin: auto;
     padding: px;
-    list-style-type: "\1F44D";
+    list-style: none;
 }
 
 .description2
 {
     margin-left: 65px;
+    list-style: none;
 
 }
 
@@ -186,6 +189,12 @@ header
 {
 	width: 200px;
 	margin: auto;
+}
+
+.peinture
+{
+    width: 25px;
+    margin: auto;
 }
 
 /* Liens */
