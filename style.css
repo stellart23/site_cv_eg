@@ -79,11 +79,13 @@
     
 }
 
+
 ul
 {
     padding: 0px;
     margin: 0px;
 }
+
 
 section
 {
@@ -97,7 +99,7 @@ h1
 {
 	color: #000000;
 	font-size: 50px;
-    margin-left: 70px;
+    margin-left: 15px;
     margin-bottom: 0px;
     
 
@@ -110,45 +112,44 @@ h1
 
 h2
 {
-    font-size: 20px;
-    margin-left: 70px;
+    font-size: 25px;
+    margin-left: 15px;
 }
 
 .develo
 {
-    text-decoration: underline;
-    text-decoration-color: #f39c12;
-    text-underline-offset: 10px;
+    border-bottom:solid 2px #f39c12;
+    border-radius: 2px;
+    padding-bottom: 5px;
 
 }
-
-/*
-header
-{
-	background-color: #f39c12;
-	padding: 10px;
-}
-*/
 
 .date
 {
     font-weight: bold;
-    list-style: none;
+    list-style-type: disc;
 }
+
+.lastdate
+{
+    font-weight: bold;
+    list-style-type: square;
+}
+
+
 
 .general
 {
-	color: #ffffff;
-    background-color: #f39c12;
+	color: #000000;
+    border-bottom:solid 2px #f39c12;
     padding: 10px;
-    text-align: center;
 }
 
-.fas fa-briefcase
+.fas fa-graduation-cap
 {
- color: #ffffff;
- font-size: 10em;
+    margin-right: 50px;
 }
+
 
 .description
 {
@@ -162,7 +163,6 @@ header
 {
     margin-left: 65px;
     list-style: none;
-
 }
 
 .fonction
@@ -245,14 +245,15 @@ body
 {
 	width: 30%;
     order: 1
-    list-style: none;
+   
 }
 
 
 .side
 {
 	color: #ffffff;
-	text-align: center;
+    text-align: center;
+ 
 }
 
 .contact
@@ -284,10 +285,48 @@ body
 	
 }
 
+.peinture
 
+{
+    width: 45px;
+    border: solid 2px #ffffff;
+    border-radius: 100px;
+    padding: 8px;
+    font-size: 40px;
+    list-style-type: none;
+}
+
+.kravmaga
+
+{
+    width: 45px;
+    border: solid 2px #ffffff;
+    border-radius: 120px;
+    padding: 8px;
+    font-size: 40px;
+}
+
+.golf
+
+{
+    width: 45px;
+    border: solid 2px #ffffff;
+    border-radius: 100px;
+    padding: 8px;
+    font-size: 40px;
+}
+
+
+
+#conteneur
+{
+    display: inline-flex;
+}
 
 
 
 
 {
 }
+
+
