@@ -80,18 +80,101 @@
 }
 
 
+
 ul
 {
     padding: 0px;
     margin: 0px;
 }
 
+.lastdate li
+{
+     color: red
+}
+
+
+#Golfplus
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Bivea
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#Pixience
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#Decathlon
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#DecathlonBis
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#ERDF
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#OpenClassrooms
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14px;
+}
+
+#ApFormation
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14px;
+}
+
+#ESG
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14px;
+}
+
+.formation
+{
+    width: 100%;
+    list-style: none;
+}
+
 
 section
 {
-border: solid 1px #881818;
 width: 95%;
 margin: auto;
+list-style-position: inside;
 }
 
 
@@ -102,7 +185,6 @@ h1
     margin-left: 15px;
     margin-bottom: 0px;
     
-
 }
 
 .estelle
@@ -114,6 +196,7 @@ h2
 {
     font-size: 25px;
     margin-left: 15px;
+    margin-bottom: 60px;
 }
 
 .develo
@@ -124,19 +207,61 @@ h2
 
 }
 
+
+.fa-briefcase::before
+{
+    content: "\f0b1";
+    color: #f39c12;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.fa-graduation-cap::before
+{
+    content: "\f19d";
+    color: #f39c12;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.fa-pencil-alt::before
+{
+    content: "\f19d";
+    color: #f39c12;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+
 .date
 {
+    width: 100%;
     font-weight: bold;
     list-style-type: disc;
 }
 
 .lastdate
 {
+    width: 100%;
     font-weight: bold;
     list-style-type: square;
 }
 
+.fonction
+{
+    width: 100%;
+    list-style: none;
+}
 
+.Poste
+{
+    color: rgb(103 169 161);
+}
+
+.ville
+{
+    margin-left: 20px ;
+}
 
 .general
 {
@@ -165,12 +290,8 @@ h2
     list-style: none;
 }
 
-.fonction
-{
-	color: rgb(103 169 161);
-}
 
-.entrepriseville
+.entreprise
 {
 	font-style: italic;
 }
@@ -191,11 +312,6 @@ h2
 	margin: auto;
 }
 
-.peinture
-{
-    width: 25px;
-    margin: auto;
-}
 
 /* Liens */
 a 
@@ -207,7 +323,7 @@ a
 
 a:hover /* Apparence au survol des liens */ 
 {
-   color: #AD1457;
+   color: #f39c12;
 }
 /*
 a:visited
@@ -253,6 +369,7 @@ body
 {
 	color: #ffffff;
     text-align: center;
+    list-style: none;
  
 }
 
@@ -285,13 +402,23 @@ body
 	
 }
 
-.peinture
+
+#conteneurIcone
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+
+.sizeIcone
 
 {
-    width: 45px;
     border: solid 2px #ffffff;
-    border-radius: 100px;
-    padding: 8px;
+    border-radius: 100%;
+    padding: 14px;
     font-size: 40px;
     list-style-type: none;
 }
@@ -299,34 +426,23 @@ body
 .kravmaga
 
 {
-    width: 45px;
-    border: solid 2px #ffffff;
-    border-radius: 120px;
-    padding: 8px;
-    font-size: 40px;
+    width: 41px
 }
 
 .golf
 
 {
-    width: 45px;
-    border: solid 2px #ffffff;
-    border-radius: 100px;
-    padding: 8px;
-    font-size: 40px;
+    padding: 14px 18px;
 }
 
 
 
-#conteneur
-{
-    display: inline-flex;
-}
 
 
 
+/*
 
 {
 }
-
+*/
 

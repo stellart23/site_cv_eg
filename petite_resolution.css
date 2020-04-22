@@ -23,6 +23,42 @@
     }
 
 
+    #conteneurIcone
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    
+    }
+    
+    
+    .sizeIcone
+    
+    {
+        width: 100%;
+        border: solid 2px #ffffff;
+        border-radius: 100%;
+        padding: 14px;
+        font-size: 20px;
+        list-style-type: none;
+    }
+    
+    .kravmaga
+    
+    {
+        width: 41px
+    }
+    
+    .golf
+    
+    {
+        padding: 14px 18px;
+    }
+    
+
+
+
 
 
 }
