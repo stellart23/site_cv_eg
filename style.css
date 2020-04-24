@@ -79,67 +79,94 @@
     
 }
 
-
-
 ul
 {
     padding: 0px;
     margin: 0px;
 }
 
-.lastdate li
+.lastDate::before 
 {
-     color: red
+     color: #f39c12;
+     content:"\f192";
+     font-family: "Font Awesome 5 Free";
+     font-weight: 300;
+     margin-right: 12px;
 }
 
+.lastDate
+{
+    width: 100%;
+    font-weight: bold;
+    list-style-type: square;
+}
 
-#Golfplus
+.date::before 
+{
+     color: #f39c12;
+     content:"\f111";
+     font-family: "Font Awesome 5 Free";
+     font-size: 8px;
+     margin-right: 12px;
+
+}
+
+.date
+{
+    width: 100%;
+    font-weight: bold;   
+}
+
+#golfplus
 {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-#Bivea
+#bivea
 {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-
-#Pixience
+#pixience
 {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
     
 }
 
-#Decathlon
+#decathlon
 {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    
+    margin-bottom: 20px;
 }
 
-#DecathlonBis
+#decathlonBis
 {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    
+    margin-bottom: 20px;
 }
 
-#ERDF
+#erdf
 {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-#OpenClassrooms
+#openClassrooms
 {
     width: 100%;
     display: flex;
@@ -147,7 +174,7 @@ ul
     margin-bottom: 14px;
 }
 
-#ApFormation
+#apFormation
 {
     width: 100%;
     display: flex;
@@ -155,13 +182,22 @@ ul
     margin-bottom: 14px;
 }
 
-#ESG
+#esg
 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 14px;
 }
+
+#icfa
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14px;
+}
+
 
 .formation
 {
@@ -170,6 +206,13 @@ ul
 }
 
 
+.entête
+{
+    width: 95%;
+    margin: auto;
+    list-style-position: inside;
+    }
+
 section
 {
 width: 95%;
@@ -177,14 +220,12 @@ margin: auto;
 list-style-position: inside;
 }
 
-
 h1
 {
 	color: #000000;
 	font-size: 50px;
     margin-left: 15px;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px; 
 }
 
 .estelle
@@ -206,7 +247,6 @@ h2
     padding-bottom: 5px;
 
 }
-
 
 .fa-briefcase::before
 {
@@ -232,28 +272,13 @@ h2
     margin-right: 20px;
 }
 
-
-.date
-{
-    width: 100%;
-    font-weight: bold;
-    list-style-type: disc;
-}
-
-.lastdate
-{
-    width: 100%;
-    font-weight: bold;
-    list-style-type: square;
-}
-
 .fonction
 {
     width: 100%;
     list-style: none;
 }
 
-.Poste
+.poste
 {
     color: rgb(103 169 161);
 }
@@ -267,14 +292,14 @@ h2
 {
 	color: #000000;
     border-bottom:solid 2px #f39c12;
-    padding: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .fas fa-graduation-cap
 {
     margin-right: 50px;
 }
-
 
 .description
 {
@@ -290,12 +315,10 @@ h2
     list-style: none;
 }
 
-
 .entreprise
 {
 	font-style: italic;
 }
-
 
 .photo
 {
@@ -311,7 +334,6 @@ h2
 	width: 200px;
 	margin: auto;
 }
-
 
 /* Liens */
 a 
@@ -340,9 +362,6 @@ body
     display: flex;
 }
 
-
-
-
 .element
 {
 	min-height: 100px;
@@ -356,7 +375,6 @@ body
 	order: 2
 }
 
-
 .element:nth-child(2)
 {
 	width: 30%;
@@ -364,13 +382,11 @@ body
    
 }
 
-
 .side
 {
 	color: #ffffff;
     text-align: center;
     list-style: none;
- 
 }
 
 .contact
@@ -380,12 +396,10 @@ body
 	
 }
 
-
 .apropos
 {
     background-color: #f1c40f;
     padding: 10px;
-	
 }
 
 .competences
@@ -399,9 +413,7 @@ body
 {
     background-color: #2ecc71;
     padding: 10px;
-	
 }
-
 
 #conteneurIcone
 {
@@ -409,12 +421,9 @@ body
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-
 }
 
-
 .sizeIcone
-
 {
     border: solid 2px #ffffff;
     border-radius: 100%;
