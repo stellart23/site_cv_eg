@@ -1,7 +1,7 @@
 
 @media all and (max-width: 1024px)
 {
-
+        
     body
     {
         min-height: 100px;
@@ -9,18 +9,34 @@
         display: flex;
         flex-direction: column;
     }
+   .element
+   {
+    
+       min-height: 100px;
+       padding: 10px;
+       display: flex;
+       flex-direction: column;
+    }
+
+    .element:nth-child(1)
+    {
+        width: 100%;
+        order: 1
+    }
 
     .element:nth-child(2)
     {
         width: 100%;
+        order: 2
+    
     }
 
-    p
+    .side
     {
-        color: red; 
-        background-color: black;
-        font-size: 1.2em;
+        display: flex;
+        list-style: none;
     }
+
     .photo
     {
         margin-top: 20px;
@@ -32,8 +48,14 @@
     
     .photo2
     {
-        width: 75%;
-        margin: auto;
+        position: absolute;
+        top: 0px;
+        left: 2%;
+    }
+
+    header
+    {
+        margin-left: 30%;
     }
 
 
@@ -41,8 +63,10 @@
     {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         list-style: none;
+        height: 75%;
     
     }
     
@@ -78,14 +102,96 @@
 }
  
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 768px)
 {
-    p
+    body
     {
-        color: violet;
-        background-color: white;
-        font-size: 1.2em;
+        min-height: 100px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
     }
+   .element
+   {
+    
+       min-height: 100px;
+       padding: 10px;
+       display: flex;
+       flex-direction: column;
+    }
+
+    .element:nth-child(1)
+    {
+        width: 100%;
+        order: 1
+    }
+
+    .element:nth-child(2)
+    {
+        width: 100%;
+        order: 2
+    
+    }
+
+
+    .photo
+    {
+        margin-top: 20px;
+        width:  75%;
+        border: 3px solid;
+        border-color: #fff;
+        border-radius: 100px;
+    }
+    
+    .photo2
+    {
+        position: absolute;
+        top: 0px;
+        left: 5%;
+    }
+
+    header
+    {
+        margin-left: 50%;
+    }
+
+
+    #conteneurIcone
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 75%;
+    
+    }
+    
+    
+    .sizeIcone
+    
+    {
+        width: 100%;
+        border: solid 2px #ffffff;
+        border-radius: 100%;
+        padding: 14px;
+        font-size: 20px;
+        list-style-type: none;
+    }
+    
+    .kravmaga
+    
+    {
+        width: 41px
+    }
+    
+    .golf
+    
+    {
+        padding: 14px 18px;
+    }
+    
+
 }
 
 <meta name="viewport" content="width=device-width, user-scalable=no">
