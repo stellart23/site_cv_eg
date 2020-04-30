@@ -102,7 +102,7 @@
 }
  
 
-@media all and (max-device-width: 768px)
+@media (max-width: 640px) 
 {
     body
     {
