@@ -75,12 +75,14 @@
 
 *
 {
+    padding: 0px;
+    margin: 0px;
     font-family: 'quicksandlight_italic', Arial ,sans-serif;
-    
 }
 
 ul
 {
+    list-style: none;
     padding: 0px;
     margin: 0px;
 }
@@ -99,6 +101,7 @@ ul
     width: 100%;
     font-weight: bold;
     list-style-type: square;
+    color: #404040;
 }
 
 .date::before 
@@ -108,13 +111,13 @@ ul
      font-family: "Font Awesome 5 Free";
      font-size: 8px;
      margin-right: 12px;
-
 }
 
 .date
 {
     width: 100%;
-    font-weight: bold;   
+    font-weight: bold;
+    color: #404040;   
 }
 
 #golfplus
@@ -139,7 +142,6 @@ ul
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-    
 }
 
 #decathlon
@@ -205,6 +207,12 @@ ul
     list-style: none;
 }
 
+.ecole
+{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #404040;
+}
 
 .entête
 {
@@ -305,7 +313,7 @@ h2
 {
     width: 90%;
     margin: auto;
-    padding: px;
+    /*padding: 10px;*/
     list-style: none;
 }
 
@@ -317,7 +325,9 @@ h2
 
 .entreprise
 {
-	font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #404040;
 }
 
 .photo
@@ -358,15 +368,12 @@ a:visited
 body
 
 {
-	
     display: flex;
 }
 
 .element
 {
 	min-height: 100px;
-	padding: 10px;
-
 }
 
 .element:nth-child(1)
@@ -379,7 +386,6 @@ body
 {
 	width: 30%;
     order: 1
-   
 }
 
 .side
@@ -393,26 +399,57 @@ body
 {
     background-color: #f39c12;
     padding: 10px;
-	
 }
 
+.titreContact
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 .apropos
 {
     background-color: #f1c40f;
     padding: 10px;
+    height: auto;
 }
+
+.titreAPropos
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 
 .competences
 {
     background-color: #1abc9c;
     padding: 10px;
-	
+    height: auto;	
+}
+
+.titreCompetences
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .loisirs
 {
     background-color: #2ecc71;
     padding: 10px;
+    min-height: 200px;
+}
+
+.titreLoisirs
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #conteneurIcone
@@ -421,6 +458,8 @@ body
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .sizeIcone
@@ -433,21 +472,29 @@ body
 }
 
 .kravmaga
-
 {
     width: 41px
 }
 
 .golf
-
 {
     padding: 14px 18px;
 }
 
 
+.recommandations
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    color: #404040;
+}
 
-
-
+.mailReco
+{
+    color: #f39c12;
+}
 
 /*
 
