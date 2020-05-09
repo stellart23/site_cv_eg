@@ -1,18 +1,19 @@
 
 @media all and (max-width: 1024px)
 {
-        
     body
     {
         min-height: 100px;
         padding: 10px;
         display: flex;
         flex-direction: column;
+        padding: 0px;
     }
 
     header
     {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+        margin-top: 25px;
     }
 
    .element
@@ -54,8 +55,8 @@
     .photo2
     {
         position: absolute;
-        top: 0px;
-        left: 2%;
+        top: -10px;
+        left: -10px;
     }
 
     header
@@ -63,6 +64,10 @@
         margin-left: 30%;
     }
 
+    .loisirs 
+    {
+        min-height: 150px;
+    }
 
     #conteneurIcone
     {
@@ -72,7 +77,6 @@
         justify-content: space-evenly;
         list-style: none;
         height: 75%;
-    
     }
     
     
@@ -122,6 +126,62 @@
         display: flex;
         flex-direction: column;
     }
+
+    header 
+    {
+        margin-left: 0%;
+    }
+
+    h1
+    {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h2
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .photo2 
+    {
+        position: absolute;
+        top: 97px;
+        left: 20%;
+    }
+
+    #menuResponsive
+    {
+        margin-top: 180px;
+        font-size: 14px;
+        width: 100%;
+        background-color:#f39c12;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-style: normal;
+    }
+
+    .menuResponsive
+    {
+        margin: auto;
+        border: solid 1px #ffffff;
+    }
+
+    a
+    {
+        
+        font-style: italic;
+    }
+
+    a:hover /* Apparence au survol des liens */ 
+    {
+    color: #D2D2D2;
+    }
+
+
    .element
    {
     
@@ -143,11 +203,20 @@
     
     }
 
+    .recommandations
+    {
+        font-size: 75%;
+    }
+
     #competences
         {
         display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
 
     }
+
+/*
     .photo
     {
         margin-top: 20px;
@@ -160,16 +229,8 @@
     .photo2
     {
         position: absolute;
-        top: 0px;
-        left: 5%;
-    }
-
-    header
-    {
-        margin-left: 50%;
-    }
-
-
+        
+    }*/
 
     .side
     {
@@ -180,10 +241,19 @@
 
     #conteneurIcone
 {
-    width: 100%;
+    /*width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style: none;*/
+    width: 41px;
+    margin: auto;
+    padding: 0;
+    height: 41px;
+    line-height: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     list-style: none;
 }
 

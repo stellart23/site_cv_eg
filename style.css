@@ -80,6 +80,11 @@
     font-family: 'quicksandlight_italic', Arial ,sans-serif;
 }
 
+#menuResponsive
+{
+    font-size: 0px;
+}
+
 ul
 {
     list-style: none;
@@ -355,7 +360,7 @@ a
 
 a:hover /* Apparence au survol des liens */ 
 {
-   color: #f39c12;
+   color: #404040;
 }
 /*
 a:visited
@@ -401,7 +406,7 @@ body
     padding: 10px;
 }
 
-.titreContact
+#titreContact
 {
     margin-top: 20px;
     margin-bottom: 10px;
