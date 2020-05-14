@@ -172,7 +172,6 @@
 
     a
     {
-        
         font-style: italic;
     }
 
@@ -200,7 +199,6 @@
     {
         width: 100%;
         order: 2
-    
     }
 
     .recommandations
@@ -213,24 +211,7 @@
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: space-around;
-
     }
-
-/*
-    .photo
-    {
-        margin-top: 20px;
-        width:  75%;
-        border: 3px solid;
-        border-color: #fff;
-        border-radius: 100px;
-    }
-    
-    .photo2
-    {
-        position: absolute;
-        
-    }*/
 
     .side
     {
@@ -241,11 +222,6 @@
 
     #conteneurIcone
 {
-    /*width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;*/
     width: 41px;
     margin: auto;
     padding: 0;
@@ -256,10 +232,7 @@
     justify-content: center;
     list-style: none;
 }
-
-    
-    .sizeIcone
-    
+    .sizeIcone 
     {
         width: 100%;
         border: solid 2px #ffffff;
@@ -267,15 +240,13 @@
         padding: 14px;
         font-size: 20px;
         list-style-type: none;
-        margin: auto;
-        
+        margin: auto; 
     }
     
     .peinture
     {
         width: 41px
     }
-
 
     .kravmaga
     {
