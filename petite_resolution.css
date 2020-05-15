@@ -41,6 +41,7 @@
     {
         display: flex;
         list-style: none;
+        flex-flow: column;
     }
 
     .photo
@@ -64,24 +65,29 @@
         margin-left: 30%;
     }
 
+    #competences
+        {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+    }
+
     .loisirs 
     {
-        min-height: 150px;
+        min-height: 125px;
+       
     }
 
     #conteneurIcone
     {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        list-style: none;
-        height: 75%;
+    width: 41px;
+    margin: auto;
+    padding: 0;
+    height: 52px;
     }
     
     
     .sizeIcone
-    
     {
         width: 100%;
         border: solid 2px #ffffff;
@@ -106,7 +112,7 @@
     
     {
         padding: 14px 18px;
-        width: 41px
+        width: 15px
     }
     
 
@@ -155,7 +161,7 @@
     #menuResponsive
     {
         margin-top: 180px;
-        font-size: 14px;
+        display: block;
         width: 100%;
         background-color:#f39c12;
         text-align: center;
@@ -221,17 +227,17 @@
     }
 
     #conteneurIcone
-{
-    width: 41px;
-    margin: auto;
-    padding: 0;
-    height: 41px;
-    line-height: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-}
+    {
+        width: 41px;
+        margin: auto;
+        padding: 0;
+        height: 41px;
+        line-height: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+    }
     .sizeIcone 
     {
         width: 100%;
