@@ -496,6 +496,13 @@ h4
     color: #404040;
 }
 
+.recommandationsFlexGrow {
+
+    flex-grow: 1;
+
+}
+
+
 .mailReco
 {
     color: #f39c12;
